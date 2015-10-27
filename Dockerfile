@@ -10,3 +10,5 @@ RUN apt-get install -y git libxcb-render0-dev libxcb-xtest0-dev libxcb-icccm4-de
     libpng-dev liblua5.1-0-dev liblua5.1-0 lua5.1 libluajit-5.1-2
 ADD moai-dev moai-dev
 RUN cd moai-dev && ./bin/build-linux.sh
+ENV MOAI_CONFIG=/moai-dev/samples/config
+ENV MOAI_BIN=/moai-dev/build/build-linux/
