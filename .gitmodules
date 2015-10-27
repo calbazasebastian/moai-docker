@@ -1,0 +1,3 @@
+[submodule "moai-dev"]
+	path = moai-dev
+	url = git@github.com:calbazasebastian/moai-dev.git
