@@ -19,5 +19,5 @@ RUN cd moai-dev && chmod +x bin/build-linux.sh && ./bin/build-linux.sh
 ENV MOAI_CONFIG=/moai-dev/samples/config
 ENV MOAI_BIN=/moai-dev/build/build-linux/
 ENV PATH "$PATH:$MOAI_BIN"
-WORKDIR /moai-dev/samples
+WORKDIR /app
 ENTRYPOINT ["moai"]
