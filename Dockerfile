@@ -20,3 +20,4 @@ ENV MOAI_CONFIG=/moai-dev/samples/config
 ENV MOAI_BIN=/moai-dev/build/build-linux/
 ENV PATH "$PATH:$MOAI_BIN"
 WORKDIR /moai-dev/samples
+ENTRYPOINT ["moai"]
