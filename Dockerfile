@@ -21,3 +21,4 @@ ENV MOAI_BIN=/moai-dev/build/build-linux/
 ENV PATH "$PATH:$MOAI_BIN"
 WORKDIR /app
 ENTRYPOINT ["moai"]
+CMD ["main.lua"]
